@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-#Read data
-data = pd.read_csv(r'C:\Users\sharm\Desktop\supercomputer-power-flops.csv')
+#Read data.
+data = pd.read_csv(r'supercomputer-power-flops.csv')
 x = np.array(data['Year'][9:28:2])
 y = np.array(data['Floating-Point Operations per Second'][9:28:2])
 
